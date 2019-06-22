@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java语言程序设计.iml" filepath="$PROJECT_DIR$/java语言程序设计.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" filepath="$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" />
     </modules>
   </component>
 </project>
