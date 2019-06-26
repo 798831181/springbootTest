@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
+        <module name="form-input" />
         <module name="server" />
         <module name="springboot-dubbo-client" />
         <module name="springboot-dubbo-server" />

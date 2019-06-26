@@ -11,5 +11,6 @@
     <modules>
         <module>springboot-dubbo-client</module>
         <module>springboot-dubbo-server</module>
+        <module>form-input</module>
     </modules>
 </project>
