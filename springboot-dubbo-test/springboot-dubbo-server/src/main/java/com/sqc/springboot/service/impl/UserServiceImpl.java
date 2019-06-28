@@ -35,6 +35,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User insertByUser(User user) {
-        return null;
+        return userRepository.save(user);
     }
 }

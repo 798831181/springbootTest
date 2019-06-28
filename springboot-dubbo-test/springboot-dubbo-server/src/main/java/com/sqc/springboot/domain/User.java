@@ -33,5 +33,12 @@ public class User implements Serializable {
     @NotEmpty(message = "出生日期不能为空")
     private String birthday;
 
+    public User(String name, @NotNull(message = "年龄不能为空") @Min(value = 0, message = "age不能小于0") @Max(value = 300, message = "age不能大于300") Integer age, @NotEmpty(message = "出生日期不能为空") String birthday) {
+        this.name = name;
+        this.age = age;
+        this.birthday = birthday;
+    }
 
+    public User() {
+    }
 }
