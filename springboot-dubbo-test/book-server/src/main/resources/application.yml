@@ -1,16 +1,18 @@
 server:
-  port: 8083
+  port: 8084
 spring:
   datasource:
-    url: jdbc:h2:file:~/.h2/testBook
-    driver-class-name: org.h2.Driver
-    username: sa
-    password:
+    url: jdbc:mysql://localhost:3306/heima?characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
   jpa:
     show-sql: true
-  h2:
-    console:
-      path: /h2-console
-      enabled: true
+    database: mysql
+    hibernate:
+      ddl-auto: update
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.sqc.springboot.domain
 
 

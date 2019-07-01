@@ -3,10 +3,13 @@ package com.sqc.springboot.controller;
 
 import com.sqc.springboot.domain.Book;
 import com.sqc.springboot.service.BookService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 
 /**
@@ -14,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
  */
 @Controller
 @RequestMapping(value = "/book")
+@Slf4j
 public class BookController {
 
     private static final String BOOK_FORM_PATH_NAME = "bookForm";
@@ -29,7 +33,10 @@ public class BookController {
      */
     @GetMapping("/getBooks")
     public String getBookList(ModelMap map) {
-        map.addAttribute("bookList",bookService.findAll());
+        List<Book> books = bookService.findAll();
+        log.info("springboot-dubbo[] book-server[] BookController[] getBookList[] books{} ",books);
+        map.addAttribute("bookList", books);
+
         return BOOK_LIST_PATH_NAME;
     }
 
@@ -56,8 +63,8 @@ public class BookController {
 
     /**
      * 获取更新 Book 表单
-     *    处理 "/book/update/{id}" 的 GET 请求，通过 URL 中的 id 值获取 Book 信息
-     *    URL 中的 id ，通过 @PathVariable 绑定参数
+     * 处理 "/book/update/{id}" 的 GET 请求，通过 URL 中的 id 值获取 Book 信息
+     * URL 中的 id ，通过 @PathVariable 绑定参数
      */
     @RequestMapping(value = "/update/{id}", method = RequestMethod.GET)
     public String getUser(@PathVariable Long id, ModelMap map) {
@@ -75,6 +82,7 @@ public class BookController {
         bookService.update(book);
         return REDIRECT_TO_BOOK_URL;
     }
+
     /**
      * 删除 Book
      * 处理 "/book/{id}" 的 GET 请求，用来删除 Book 信息
