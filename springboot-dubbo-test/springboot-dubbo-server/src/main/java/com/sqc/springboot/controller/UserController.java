@@ -3,14 +3,13 @@ package com.sqc.springboot.controller;
 import com.sqc.springboot.domain.User;
 import com.sqc.springboot.domain.UserRepository;
 import com.sqc.springboot.service.UserService;
-import lombok.extern.log4j.Log4j;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+
 import javax.validation.Valid;
 import java.util.List;
 

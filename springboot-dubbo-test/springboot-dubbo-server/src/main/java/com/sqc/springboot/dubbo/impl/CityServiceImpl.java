@@ -11,6 +11,7 @@ import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.concurrent.TimeUnit;
 
@@ -62,9 +63,14 @@ public class CityServiceImpl implements CityService {
 
     @Override
     @Cacheable(value = "cache")
+    @Transactional(noRollbackFor = {IllegalArgumentException.class})
     public City findCityByName(String name) {
         LOGGER.info("dubbo[] server[] CityServiceImpl[] findCityByName[] name: " + name);
+
         City city = cityDao.findByName(name);
+        if (name.length() > 5){
+            throw new IllegalArgumentException("the name is too long...");
+        }
         return city;
     }
 
