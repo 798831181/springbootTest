@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/book-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/book-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/category-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/form-input" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-vue" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dubbo-client" charset="UTF-8" />

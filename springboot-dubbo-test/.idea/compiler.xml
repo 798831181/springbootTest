@@ -9,6 +9,7 @@
         <module name="book-consumer" />
         <module name="book-server" />
         <module name="client" />
+        <module name="eureka-server" />
         <module name="hello-vue" />
         <module name="server" />
         <module name="springboot-dubbo-client" />
@@ -16,6 +17,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="book-server (1)" target="1.8" />
       <module name="form-input" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -23,7 +25,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="book-consumer" options="-parameters" />
       <module name="book-server" options="-parameters" />
+      <module name="book-server (1)" options="-parameters" />
       <module name="client" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="form-input" options="-parameters" />
       <module name="hello-vue" options="-parameters" />
       <module name="server" options="-parameters" />

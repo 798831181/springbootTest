@@ -25,6 +25,7 @@
         <module>book-server</module>
         <module>book-consumer</module>
         <module>hello-vue</module>
+        <module>eureka-server</module>
     </modules>
     <dependencyManagement>
         <dependencies>
