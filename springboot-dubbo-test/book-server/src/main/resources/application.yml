@@ -1,6 +1,8 @@
 server:
   port: 8084
 spring:
+  application:
+    name: book-server
   datasource:
     url: jdbc:mysql://localhost:3306/heima?characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
@@ -11,6 +13,8 @@ spring:
     database: mysql
     hibernate:
       ddl-auto: update
+  main:
+    allow-bean-definition-overriding: true
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
   type-aliases-package: com.sqc.springboot.domain
