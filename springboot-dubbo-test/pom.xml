@@ -26,6 +26,7 @@
         <module>book-consumer</module>
         <module>hello-vue</module>
         <module>eureka-server</module>
+        <module>rocketMQ-test</module>
     </modules>
     <dependencyManagement>
         <dependencies>

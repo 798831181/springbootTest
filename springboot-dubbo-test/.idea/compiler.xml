@@ -11,6 +11,7 @@
         <module name="client" />
         <module name="eureka-server" />
         <module name="hello-vue" />
+        <module name="rocketMQ-test" />
         <module name="server" />
         <module name="springboot-dubbo-client" />
         <module name="springboot-dubbo-server" />
@@ -30,6 +31,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="form-input" options="-parameters" />
       <module name="hello-vue" options="-parameters" />
+      <module name="rocketMQ-test" options="-parameters" />
       <module name="server" options="-parameters" />
       <module name="springboot-dubbo-client" options="-parameters" />
       <module name="springboot-dubbo-server" options="-parameters" />

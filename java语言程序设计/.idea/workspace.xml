@@ -5,8 +5,96 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea88d255-0bf3-4783-8d8e-64d9857c50e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../springboot-dubbo-test/rocketMQ-test/src/main/java/com/sqc/controller/RocketMQConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java语言程序设计.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java语言程序设计.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/META-INF/java语言程序设计.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/array/CopyArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch13/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch13/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch13/Chiken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch13/Edible.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch13/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch13/Orange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch13/TestEdible.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch13/Tiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch30/PrintChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch30/PrintNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch30/TaskThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch30/ThreadCooperation$Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch30/ThreadCooperation$DepositTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch30/ThreadCooperation$WithdrawTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch30/ThreadCooperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/ch31/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/algorithm/sort/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/algorithm/sort/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/algorithm/sort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/algorithm/test/Dex2Bin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/algorithm/test/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/algorithm/test/ThreeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/algorithm/test/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/exception/FinallyWorks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/exception/InheritingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/exception/MultipleReturns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/exception/SimpleException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/exception/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/exception/ThreeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/exception/Whocalles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/internet/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/internet/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/regex/FindGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/com/sqc/regex/ReplaceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/offer/Q21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Demo$Sub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Demo$Super.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/DirList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/MyHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Test6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Test7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Test7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Test8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/Test9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/TestFileStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/test/TestHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/testString/JinzhiZhuanHuan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/testString/Palindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/testString/SortString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/testString/StringPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/testString/StringRotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/testString/TestChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/xiaozhao2018/SimulateMultiple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/xiaozhao2018/ZuiDaChengJi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/zssf/FindFirstIntersectNode$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/zssf/FindFirstIntersectNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/zssf/PreInPosTraversal$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/zssf/PreInPosTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/zssf/SussersorNode$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/zssf/SussersorNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/zssf/class_04/SerializeAndReconstructTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java语言程序设计/zssf/class_04/SerializeAndReconstructTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-dubbo-test/rocketMQ-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/src/main/java/com/sqc/springboot/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-dubbo-test/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-dubbo-test/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-dubbo-test/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-dubbo-test/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-dubbo-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-dubbo-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot学习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot学习笔记.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,33 +109,12 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/CopyArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Test9.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Test8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="288">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+            <state relative-caret-position="530">
+              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,28 +135,71 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/zssf/SussersorNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-start/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="32">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-start/src/main/java/com/sqc/springboot/App.java">
+        <entry file="file://$PROJECT_DIR$/src/zssf/PreInPosTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="64">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zssf/FindFirstIntersectNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zssf/class_04/SerializeAndReconstructTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testString/SortString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/offer/Test22.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="47" column="62" lean-forward="true" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/Test7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <folding>
+                <element signature="e#883#1224#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,7 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/zssf/FindFirstIntersectNode.java" />
         <option value="$PROJECT_DIR$/src/zssf/PreInPosTraversal.java" />
         <option value="$PROJECT_DIR$/src/zssf/SussersorNode.java" />
         <option value="$PROJECT_DIR$/src/test/DirList.java" />
@@ -117,14 +226,12 @@
         <option value="$PROJECT_DIR$/src/test/Test6.java" />
         <option value="$PROJECT_DIR$/src/test/Test4.java" />
         <option value="$PROJECT_DIR$/src/test/Test7.java" />
-        <option value="$PROJECT_DIR$/src/test/Test8.java" />
         <option value="$PROJECT_DIR$/src/test/Test9.java" />
         <option value="$PROJECT_DIR$/src/zssf/class_04/SerializeAndReconstructTree.java" />
         <option value="$PROJECT_DIR$/src/test/TestHeap.java" />
         <option value="$PROJECT_DIR$/src/test/MyHeap.java" />
         <option value="$PROJECT_DIR$/src/queue/test/Car.java" />
         <option value="$PROJECT_DIR$/src/queue/test/Test1.java" />
-        <option value="$PROJECT_DIR$/src/test/Solution.java" />
         <option value="$PROJECT_DIR$/src/testString/JinzhiZhuanHuan.java" />
         <option value="$PROJECT_DIR$/src/test/Main.java" />
         <option value="$PROJECT_DIR$/src/testString/SortString.java" />
@@ -157,9 +264,12 @@
         <option value="$PROJECT_DIR$/src/com/sqc/algorithm/test/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/test/TestFileStream.java" />
         <option value="$PROJECT_DIR$/temp.dat" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-start/src/main/java/com/sqc/springboot/App.java" />
         <option value="$PROJECT_DIR$/spring-boot-start/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/Test8.java" />
+        <option value="$PROJECT_DIR$/src/test/Solution.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/offer/Test22.java" />
       </list>
     </option>
   </component>
@@ -169,6 +279,17 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-learning" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
@@ -184,6 +305,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -194,27 +316,12 @@
             </path>
             <path>
               <item name="java语言程序设计" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java语言程序设计" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-start" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java语言程序设计" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java语言程序设计" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java语言程序设计" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java语言程序设计" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,14 +331,14 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561173686374" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563153493332" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3264368" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -245,13 +352,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestFileStream.f1">
+  <component name="RunManager" selected="Application.Test22">
     <configuration name="Dex2Bin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sqc.algorithm.test.Dex2Bin" />
       <module name="java语言程序设计" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sqc.algorithm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.Test22" />
+      <module name="java语言程序设计" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,19 +405,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sqc.algorithm.test.TwoSum" />
-      <module name="java语言程序设计" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sqc.algorithm.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestFileStream.f1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java语言程序设计" />
       <extension name="coverage">
@@ -316,11 +423,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test22" />
         <item itemvalue="JUnit.TestFileStream.f1" />
         <item itemvalue="Application.TestFileStream" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.Dex2Bin" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -360,6 +467,8 @@
       <workItem from="1560263339130" duration="599000" />
       <workItem from="1560749209534" duration="2534000" />
       <workItem from="1561171099745" duration="2073000" />
+      <workItem from="1563150114267" duration="1595000" />
+      <workItem from="1563151729513" duration="1661000" />
     </task>
     <task id="LOCAL-00001" summary="test git">
       <created>1561171193809</created>
@@ -411,13 +520,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156587000" />
+    <option name="totallyTimeSpent" value="159843000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882352" visible="true" weight="0.27144772" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882352" visible="true" weight="0.2777778" />
       <window_info id="Structure" order="1" sideWeight="0.5011765" side_tool="true" weight="0.1541555" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -426,8 +535,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49463806" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49731904" weight="0.39886847" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49463806" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49731904" visible="true" weight="0.39803708" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -436,7 +545,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5053619" side_tool="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49463806" weight="0.3281471" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49463806" weight="0.32715377" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -444,7 +553,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32959402" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -499,6 +608,36 @@
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/offer/Test22.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/offer/Test22.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/offer/Test22.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/offer/Test22.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/offer/Test22.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -512,64 +651,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/Test5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zssf/class_04/SerializeAndReconstructTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1801">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
-          <folding>
-            <element signature="e#26813#26814#0" expanded="true" />
-            <element signature="e#26846#26847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/PriorityQueue.java" />
     <entry file="file://$PROJECT_DIR$/src/queue/test/Test1.java" />
     <entry file="file://$PROJECT_DIR$/src/queue/test/Car.java" />
     <entry file="file://$PROJECT_DIR$/src/test/TestHeap.java">
@@ -587,13 +669,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="544" lean-forward="true" selection-start-line="544" selection-end-line="544" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java" />
     <entry file="file://$PROJECT_DIR$/src/test/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -608,16 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testString/SortString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="45" lean-forward="true" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,13 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Q21.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -837,16 +896,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/MyHeap.java" />
     <entry file="file://$PROJECT_DIR$/src/array/CopyArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="80">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="112">
           <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -854,56 +914,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/MyHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-start/src/main/java/com/sqc/springboot/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="16">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-start/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="272">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Q21.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zssf/SussersorNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zssf/PreInPosTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zssf/FindFirstIntersectNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testString/SortString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zssf/class_04/SerializeAndReconstructTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="e#883#1224#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Test22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="47" column="62" lean-forward="true" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
         </state>
       </provider>
     </entry>
