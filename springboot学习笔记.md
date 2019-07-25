@@ -1,4 +1,4 @@
-### SpringBoot学习笔记
+SpringBoot学习笔记
 
 ###### 1.1SpringBoot2.x特性
 
@@ -646,3 +646,185 @@ public class SnowFlake {
 0100
 
 0011L
+
+#### 分页查询
+
+`queryDTO.setOffset((pagingParam.getPageNo() - 1) * pagingParam.getPageSize());`
+
+`@DeleteMapping`的使用：
+
+#### 单词
+
+![1563502537985](C:\Users\孙启超\AppData\Roaming\Typora\typora-user-images\1563502537985.png)
+
+### 7月17号工作日志
+
+- [ ] `listObjectByCodes`查询语句错误，没找到原因。
+
+  具体错误提示：
+
+  ![1563429196633](C:\Users\孙启超\AppData\Roaming\Typora\typora-user-images\1563429196633.png)
+
+- [ ] `IDC.getId()`类初始化失败
+
+  具体错误提示：
+
+  ![1563428314134](C:\Users\孙启超\AppData\Roaming\Typora\typora-user-images\1563428314134.png)
+
+- [x] 根据id查询数据类型时`appName`和`tenantId没有值`
+
+  > ```
+  > 		dataTypeDetailVO.setAppName("");
+  > 		dataTypeDetailVO.setTenantName("");
+  > ```
+  >
+  > 手动设置为null了，为什么这么写，我还需要理解。
+
+- [x] 修改分页查询mapper语句。
+
+- 联调问题单
+
+  - [ ] 新增应用类别
+
+    service层能够接收到参数
+
+    ```
+      2019-07-18 16:49:25.827  INFO 23 --- [ULT-8-thread-49] c.s.p.s.ApplicationCategoryServiceImpl   : receive insert param:ApplicationCategoryInsertParam(name=123, code=123, description=)
+    ```
+
+    但是出现错误
+
+    ![1563440567559](C:\Users\孙启超\AppData\Roaming\Typora\typora-user-images\1563440567559.png)
+
+    ```
+    {status: 400, error: "system.is.busy,please.try.again.later", message: "Maskit general failure",…}
+    data: null
+    error: "system.is.busy,please.try.again.later"
+    message: "Maskit general failure"
+    path: null
+    status: 400
+    timestamp: "1563439765834
+    ```
+
+  - [ ] 删除应用类别
+
+    ```
+    {status: 400, error: "application.category.not.exist", message: "application.category.not.exist",…}
+    data: null
+    error: "application.category.not.exist"
+    message: "application.category.not.exist"
+    path: null
+    status: 400
+    timestamp: "1563411786741"
+    ```
+
+  - [ ] 编辑应用类别
+
+    点击编辑应用按钮，提示以下错误。
+
+    ```
+    {status: 400, error: "APPLICATION_CATEGORY_NOT_EXIST", message: "APPLICATION_CATEGORY_NOT_EXIST",…}
+    data: null
+    error: "APPLICATION_CATEGORY_NOT_EXIST"
+    message: "APPLICATION_CATEGORY_NOT_EXIST"
+    path: null
+    status: 400
+    timestamp: "1563412210171"
+    ```
+
+  - [ ] 输入参数，点击搜索
+
+    ```
+    {status: 400, error: "system.is.busy,please.try.again.later", message: "Maskit general failure",…}
+    data: null
+    error: "system.is.busy,please.try.again.later"
+    message: "Maskit general failure"
+    path: null
+    status: 400
+    timestamp: "1563441773818"
+    ```
+
+  - [x] 分页显示
+
+    ![1563438192634](C:\Users\孙启超\AppData\Roaming\Typora\typora-user-images\1563438192634.png)
+
+  ```
+  	@RequestMapping(value = "/paging")
+  	public Response<Paging<ApplicationCategoryPagingVO>> pagingAppCategory(ApplicationCategoryPagingParam pagingParam) {
+  		log.info("page AppCategories receive request parameters:{}", pagingParam);
+  		validator.validate(pagingParam);
+  		return applicationCategoryService.pagingApplicationCategories(pagingParam);
+  	}
+  ```
+
+  
+
+  - 应用管理
+
+    - [ ] 分页显示
+
+      应用类别和appManage.brand值为空
+
+      ![1563442010197](C:\Users\孙启超\AppData\Roaming\Typora\typora-user-images\1563442010197.png)
+
+    - [ ] 删除应用
+
+      ![1563439125408](C:\Users\孙启超\AppData\Roaming\Typora\typora-user-images\1563439125408.png)
+
+    - [ ] 修改应用
+
+      ```
+      {status: 400, error: "app.mod.error", message: "app.mod.error", timestamp: "1563413365251", data: null,…}
+      data: null
+      error: "app.mod.error"
+      message: "app.mod.error"
+      path: null
+      status: 400
+      timestamp: "1563413365251"
+      ```
+
+      
+
+      ```
+       2019-07-18 16:40:30.915 ERROR 23 --- [ULT-8-thread-42] .u.b.a.s.OauthApplicationReadServiceImpl : appReadService[]listAppsWithinCategorization error, cause:{}
+        java.lang.NullPointerException: null
+        	at pro.unid.business.application.service.OauthApplicationReadServiceImpl.listAppsWithinCategorization(OauthApplicationReadServiceImpl.java:136) ~[2b-user-application-1.0.0-SNAPSHOT.jar:na]
+        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111-internal]
+        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111-internal]
+        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111-internal]
+        	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111-internal]
+        	at com.taobao.hsf.remoting.provider.ReflectInvocationHandler.handleRequest0(ReflectInvocationHandler.java:83) [hsf-feature-default-2.2.7.3.1-TLS.jar!/:na]
+      ```
+
+    - [ ] 搜索
+
+      - 选择应用类别后，点击搜索，没有结果
+
+        ![1563442517748](C:\Users\孙启超\AppData\Roaming\Typora\typora-user-images\1563442517748.png)
+
+      
+
+### 7.19工作日志
+
+#### 角色管理
+
+- [ ] 编辑角色
+
+  ![1563500413414](C:\Users\孙启超\AppData\Roaming\Typora\typora-user-images\1563500413414.png)
+
+- [ ] 删除角色
+
+  ![1563501517458](C:\Users\孙启超\AppData\Roaming\Typora\typora-user-images\1563501517458.png)
+
+联调测试时间点：
+7/20  完成应用类别，应用，权限，菜单，角色，门户首页的编码和联调
+7/22 开始以上功能的接口测试
+7/24 后端完成数据权限，接口权限，角色组管理，用户管理接口自测
+7/30 完成数据权限，接口权限，角色组管理，用户管理的编码和联调
+7/30 完成数据权限，接口权限，角色组管理，用户管理的接口测试
+
+#### git的使用
+
+commit之后回退
+
+`git reset head`
