@@ -6,14 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="book-consumer" />
-        <module name="book-server" />
-        <module name="client" />
-        <module name="eureka-server" />
-        <module name="form-input" />
-        <module name="hello-vue" />
-        <module name="rocketMQ-test" />
-        <module name="server" />
+        <module name="input-application" />
+        <module name="input-center" />
+        <module name="input-web" />
+        <module name="tensquare_base" />
+        <module name="tensquare_common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,9 +20,15 @@
       <module name="eureka-server" target="1.8" />
       <module name="form-input" target="1.8" />
       <module name="hello-vue" target="1.8" />
+      <module name="input-application" target="1.8" />
+      <module name="input-center" target="1.8" />
+      <module name="input-web" target="1.8" />
       <module name="rocketMQ-test" target="1.8" />
       <module name="server" target="1.8" />
       <module name="springboot-dubbo" target="1.8" />
+      <module name="springbootTest" target="1.8" />
+      <module name="tensquare_base" target="1.8" />
+      <module name="tensquare_common" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -36,8 +39,13 @@
       <module name="eureka-server" options="-parameters" />
       <module name="form-input" options="-parameters" />
       <module name="hello-vue" options="-parameters" />
+      <module name="input-application" options="-parameters" />
+      <module name="input-center" options="-parameters" />
+      <module name="input-web" options="-parameters" />
       <module name="rocketMQ-test" options="-parameters" />
       <module name="server" options="-parameters" />
+      <module name="tensquare_base" options="-parameters" />
+      <module name="tensquare_common" options="-parameters" />
     </option>
   </component>
 </project>
