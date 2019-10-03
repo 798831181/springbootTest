@@ -16,9 +16,6 @@
 
 	<modules>
 		<module>tensquare_base</module>
-		<module>input-center</module>
-		<module>input-application</module>
-		<module>input-web</module>
 		<module>tensquare_common</module>
 	</modules>
 	<properties>
