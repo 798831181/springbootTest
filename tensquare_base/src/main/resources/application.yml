@@ -2,14 +2,15 @@ server:
   port: 9001
 spring:
   applicaton:
-    name:tensequare-base
+    name: tensequare-base
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/tensquare_base?characterEncoding=utf-8
+#    url: jdbc:mysql://localhost:3306/springmvc?characterEncoding=utf-8
     username: root
     password: 123
   jpa:
-    database: mysql
+    database: MySQL
     show-sql: true
     generate-ddl: true
 
