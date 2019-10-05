@@ -9,4 +9,5 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
  * @author SQC
  */
 public interface LabelDao extends JpaRepository<Label,String>, JpaSpecificationExecutor<Label> {
+
 }
